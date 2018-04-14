@@ -1,0 +1,462 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-11 16:35:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-13 20:16:22
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-weight: normal;
+}
+.page_one{
+	width: 100%;
+	height: 800px;
+	background: url("../img/bg1.png") no-repeat center center;
+	animation:0.4s myscale 1;	
+}
+.nav_wrap{
+    width: 80%;
+    height: 55px;
+	margin: 0 auto;
+	padding: 2.4rem 0;
+	overflow: hidden;
+	position: relative;
+}
+.resume_logo{
+	width: 20%;
+	height: 55px;
+	float: left;
+}
+.resume_logo a{
+	font-size: 50px;
+	color: #fff;
+}
+.nav_bar{
+	width: 60%;
+	float: right;
+}
+.nav_bar li{
+	width: 20%;
+	float: left;
+	font-size: 18px;
+	margin-top: 5px;
+}
+.nav_bar a{
+	display: block;
+	padding: 20px 0;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+    position: relative;
+}
+.nav_bar a:hover{
+	color: #80d6f2;
+}
+.cen_con{
+	width: 720px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 50px;
+	overflow: hidden;
+}	
+.portrait {
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+    background: url('../img/touxiang.jpg') no-repeat ;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-bottom: 60px;
+}
+.cen_text{
+	width: 100%;
+	height: 300px;
+}
+.cen_text h2{
+	line-height: 30px;
+	font-size: 21px;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+}
+.cen_text h3{
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}
+.cen_text hr{
+	width: 100%;
+	height:1px;
+	background: #999999;
+	border: 0;
+	margin: 0 auto 5% auto;
+}
+/* .down_arrow{
+	width: 100%;
+	height: 80px;
+	bottom: 0px;
+	left: 0;
+}
+.down_arrow	a{
+	width: 51px;
+	height: 51px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	display: block;
+	margin: 0 auto;
+}		
+.down_arrow	span{
+	width: 18px;
+	height: 18px;
+	display: block;
+	margin: 15px;
+	background: url("../img/sprite_img.png") no-repeat -18px -50px;	
+}
+.down_arrow	a:hover{
+	border: 1px solid #80d6f2;
+} */
+.page_two{
+	width: 100%;
+	height: 800px;
+	background:#F4F4F4;
+	overflow: hidden;
+	color: #000;
+	margin-top: 20px;
+	/* display: none; */
+}
+.con_wrap{
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 2rem 0;
+	overflow: hidden;
+}
+.tit_wrap{
+	width: 1000px;
+	height: 150px;
+	margin:0 auto;
+	text-align: center;
+}
+.tit_wrap h1{
+	line-height: 42px;
+    position: relative;
+}
+.scissors{
+	width: 1000px;
+	height: 20px;
+	top: 113px;
+	margin: 0 auto;
+	border-bottom: 2px solid #80d6f2;
+}
+.tit_wrap h2{
+	line-height: 80px;
+}
+.myinfo{
+	width: 900px;
+	height: 500px;
+	margin:0 auto;
+}
+.myinfo	table{
+	width: 100%;
+	margin: 20px auto;
+}
+.myinfo td{
+	font-size: 18px;
+	padding: 15px 15px 15px 30px;
+	text-align: left;
+}
+.saying{
+	width: 580px;
+	height: 80px;
+	font-size: 18px;
+	line-height: 24px;
+	float: right;
+}
+.myinfo img{
+	border-radius: 50%;
+}
+.myinfo a{
+	color: #000;
+}
+.page_three{
+	width: 100%;
+	height: 800px;
+	/* display: none; */
+	background:#F4F4F4;
+	margin-top: 20px;
+}
+.skill_con{
+	width: 1000px;
+	height:800px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.canvas_wrap{
+	width:500px;
+	height:480px;
+	float: left;
+	overflow: hidden;
+}
+.canvas_con{
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 40px;
+	position: relative;
+	overflow: hidden;
+}
+.text_con{
+	width: 450px;
+	height: 30px;
+	margin-top: 50px;
+	text-align: center;
+}
+.chart_title{
+	display: block;
+	width: 50px;
+	height: 30px;
+	float: left;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.percent_box{
+	width: 350px;
+	height: 30px;
+	border: 1px solid #000;
+	float: left;
+}
+.percent_box1{
+	width: 90%;
+	height: 30px;
+	background:#999;
+}
+.percent_box2{
+	width: 90%;
+	height: 30px;
+	background:#999;
+}
+.percent_box3{
+	width: 70%;
+	height: 30px;
+	background:#999;
+}
+.percent_box4{
+	width: 80%;
+	height: 30px;
+	background:#999;
+}
+.percent{
+	display: block;
+	width: 45px;
+	height: 30px;
+	float: right;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.text_wrap{
+	width: 380px;
+	height: 450px;
+	float: right;
+	background: url('../img/tu7.jpg') no-repeat center;
+	background-size: cover;
+	padding: 30px 0 0 20px;
+}
+.text_wrap p{
+	font-size: 18px;
+	line-height: 24px;
+	padding: 10px 0;
+}
+.page_four{
+	width: 100%;
+	height: 800px;
+	/* display: none; */
+	background:#F4F4F4;
+	margin-top: 20px;
+}
+.work_con{
+	width: 1000px;
+	height: 550px;
+	margin: 0 auto;
+}
+.work_con1{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: url('../img/tu1.jpg') no-repeat;
+	background-size: cover;
+}
+.text{
+	display: block;
+	width: 260px;
+	height: 260px;
+	margin:15px 15px 15px 15px;
+	background:#fff;
+	opacity: 0.45;
+	border-radius: 10px;
+}
+.work_con2{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: url('../img/tu2.jpg') no-repeat;
+	background-size: cover;
+}
+.work_con3{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 10px;
+	background: url('../img/tu3.jpg') no-repeat;
+	background-size: cover;
+}
+.work_con4{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: url('../img/tu4.jpg') no-repeat;
+	background-size: cover;
+}
+
+.work_con5{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: url('../img/tu5.jpg') no-repeat;
+	background-size: cover;
+}
+.work_con6{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 10px;
+	background: url('../img/tu6.jpg') no-repeat;
+	background-size: cover;
+}
+.work_con a{
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	line-height: 230px;
+	color: #000;
+	font-weight: bold;
+}
+.work_con a:hover{
+	color:#4185eb;
+}
+.page_five{
+	width: 100%;
+	height: 800px;
+	background:#F4F4F4;
+	margin-top: 20px;
+	/* display: none; */
+}
+.contact_detail{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+.con_style{
+	width: 650px;
+	height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.con_style li{
+	width: 33.33%;
+	height:150px;
+	float:left;
+	margin-top:20px;
+	overflow: hidden;
+}
+.con_style span{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 0 auto 20px;
+	background: url("../img/sprite_img.png");
+}
+.con_style p{
+	text-align: center;
+	font-size: 1.8rem;
+}
+.con_style a{
+	color:#000;
+}
+.con_style li:nth-child(1) span{
+	background-position:0 -70px;
+}
+.con_style li:nth-child(2) span{
+	background-position:-50px -70px;
+}
+.con_style li:nth-child(3) span{
+    background-position:-100px -70px;
+}
+.contact_info{
+	width: 650px;
+	height: 330px;
+	margin: 0 auto;
+}
+.contact_info form{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 5px 0;
+}
+.contact_info label{
+	width: 30%;
+	padding: 0 10px 0 0;
+	height: 70px;
+	float: left;
+}
+.contact_info p{
+	color: red;
+	line-height: 2rem;
+	padding: 0 12px;
+}
+		
+.contact_info label:nth-child(3){
+	padding: 0;
+}
+.contact_info label:nth-child(4){
+	width: 100%;
+	height: 215px;
+	padding: 0;
+}
+.contact_info input[type="text"]{
+	width: 100%;
+	float: left;
+    background: #ffffff;
+    color:#000;		    
+}
+#usercon{
+	width: 600px;
+    height: 180px;
+    background: #fff;
+    resize:none;
+    color: #000;	
+}
+.contact_info button{
+    color:#fff;
+	padding: 0.6em 1.4em;
+	font-size: 1.4rem;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid #5BA4E8;
+	background: #5BA4E8;
+}
